@@ -1,0 +1,54 @@
+
+application {
+  config {
+    baseName myApp,
+    applicationType gateway,
+    packageName com.myapp,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+    clientFramework react
+  }
+  entities *
+}
+
+application {
+  config {
+    baseName myApp1,
+    applicationType microservice,
+    packageName com.myapp,
+    authenticationType jwt,
+    prodDatabaseType postgresql,
+  }
+  entities Table, Field
+}
+
+application {
+  config {
+    baseName myApp2,
+    applicationType microservice,
+    packageName com.myapp,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+  }
+  entities Index
+}
+
+entity Table {
+name String required maxlength(255)
+age Integer min(10) max(20)
+}
+
+entity Field {
+name String required
+
+}
+
+entity Index {
+indexName String required
+}
+
+
+relationship OneToMany {
+  Table(fieldList) to Field
+}
+    
