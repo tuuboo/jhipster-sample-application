@@ -1,0 +1,27 @@
+{
+  "myApp": {
+    "jhipsterSampleApplicationField": {
+      "home": {
+        "title": "Fields",
+        "createLabel": "Créer un nouveau Field",
+        "createOrEditLabel": "Créer ou éditer un Field",
+        "notFound": "Aucun Field trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Field {{ id }} ?"
+      },
+      "detail": {
+        "title": "Field"
+      },
+      "name": "Name",
+      "table": "Table"
+    }
+  },
+  "jhipsterSampleApplicationApp": {
+    "jhipsterSampleApplicationField": {
+      "created": "Un nouveau Field a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Field avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Field avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Table",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "age",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["min", "max"],
+      "fieldValidateRulesMin": "10",
+      "fieldValidateRulesMax": "20"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "field",
+      "otherEntityRelationshipName": "table",
+      "relationshipName": "fieldList"
+    }
+  ],
+  "changelogDate": "20210116200014",
+  "entityTableName": "table",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "jhipsterSampleApplication",
+  "applications": ["myApp", "myApp1"],
+  "microserviceName": "jhipsterSampleApplication"
+}
