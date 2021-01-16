@@ -1,0 +1,28 @@
+{
+  "myApp": {
+    "jhipsterSampleApplicationTable": {
+      "home": {
+        "title": "Tables",
+        "createLabel": "Créer un nouveau Table",
+        "createOrEditLabel": "Créer ou éditer un Table",
+        "notFound": "Aucun Table trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Table {{ id }} ?"
+      },
+      "detail": {
+        "title": "Table"
+      },
+      "name": "Name",
+      "age": "Age",
+      "fieldList": "Field List"
+    }
+  },
+  "jhipsterSampleApplicationApp": {
+    "jhipsterSampleApplicationTable": {
+      "created": "Un nouveau Table a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Table avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Table avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Index",
+  "fields": [
+    {
+      "fieldName": "indexName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210116200214",
+  "entityTableName": "index",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "jhipsterSampleApplication",
+  "applications": ["myApp", "myApp2"],
+  "microserviceName": "jhipsterSampleApplication"
+}

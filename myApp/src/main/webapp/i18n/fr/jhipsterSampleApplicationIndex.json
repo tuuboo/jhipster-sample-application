@@ -1,0 +1,26 @@
+{
+  "myApp": {
+    "jhipsterSampleApplicationIndex": {
+      "home": {
+        "title": "Indices",
+        "createLabel": "Créer un nouveau Index",
+        "createOrEditLabel": "Créer ou éditer un Index",
+        "notFound": "Aucun Index trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Index {{ id }} ?"
+      },
+      "detail": {
+        "title": "Index"
+      },
+      "indexName": "Index Name"
+    }
+  },
+  "jhipsterSampleApplicationApp": {
+    "jhipsterSampleApplicationIndex": {
+      "created": "Un nouveau Index a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Index avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Index avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}
